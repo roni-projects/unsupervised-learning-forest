@@ -33,6 +33,9 @@ There is also a dedicated section in the code that performs normalization on the
 
 ##  Key Files
 
+- `forest_cover_analysis.ipynb` – Main Jupyter notebook that includes the full workflow:
+  data loading, preprocessing, clustering (KMeans, DBSCAN), dimensionality reduction (PCA), evaluation metrics, and discussion of results.
+
 - `sampled_data.csv` – A representative sample of 10,000 rows (without labels), constructed to reflect the original data distribution. Useful for faster testing or demonstrations.
 
 - `clustering_performance_results.csv` – A summary table showing the performance of different clustering methods (e.g., KMeans, DBSCAN), including metrics like Silhouette Score and number of clusters.
