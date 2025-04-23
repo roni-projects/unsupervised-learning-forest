@@ -23,9 +23,10 @@ After clustering, we compared the resulting clusters to the true labels to evalu
    - Apply clustering
    - Export results and visualizations
 
-**Note**: The files included in this repo (such as `sampled_data.csv`) are outputs generated from a specific sample used in my analysis.  
+Note: The files included in this repo (such as `sampled_data.csv`) are outputs generated from a specific sample used in my analysis.  
 If you prefer to work on the full dataset or generate your own sample, feel free to do so.  
 There is also a dedicated section in the code that performs normalization on the full dataset – you can run it yourself to reproduce or customize your own version. (#Data loading and normalization)
+
 📌 If you choose to generate your own outputs from the full dataset, it's recommended to give them different file names.  
    This helps avoid confusion or overwriting the sample-based files that are already included in this repository.
 ---
@@ -44,7 +45,7 @@ There is also a dedicated section in the code that performs normalization on the
 
 ---
 
-## 📘 Report Structure
+## Report Structure
 The written report includes:
 - Abstract
 - Methodology
