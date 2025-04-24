@@ -30,7 +30,16 @@ There is also a dedicated section in the code that performs normalization on the
 📌 If you choose to generate your own outputs from the full dataset, it's recommended to give them different file names.  
    This helps avoid confusion or overwriting the sample-based files that are already included in this repository.
 ---
+## Working with Data Files
+-You can open the .csv and .xlsx files in Excel, Google Sheets, or load them into Python (e.g., using pandas.read_csv()).
 
+-The Excel file summarizes clustering results for method comparison.
+
+-If needed, you can export the Excel file to .csv for additional analysis.
+
+
+
+---
 ##  Key Files
 
 - `forest_cover_analysis.ipynb` – Main Jupyter notebook that includes the full workflow:
