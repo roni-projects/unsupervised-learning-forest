@@ -17,18 +17,29 @@ After clustering, we compared the resulting clusters to the true labels to evalu
 1. Download the original dataset file `covtype.csv` from Kaggle:  
    👉 https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset  
    *(The file is too large to be included in the repository.)*
+
 2. Place the file in the root directory of the project.
-3. Run the notebook (`.ipynb`) or script (`.py`) to:
-   - Preprocess the data
-   - Apply clustering
+
+3. Run the notebook (`forest_cover_analysis.ipynb`) or script (`.py`) to:
+   - Preprocess the data  
+   - Apply clustering  
    - Export results and visualizations
+
+👉 **Important:** Before running the notebook, make sure to execute the initial setup cell:  
+This cell is marked with:
+```python
+# Importing and installing folders - run before use to ensure consistent code.
+```
+It prepares the environment and sets up the necessary folder structure to ensure smooth execution.  
+Once `covtype.csv` is placed in the root directory, the code in `forest_cover_analysis.ipynb` should run as expected.
 
 Note: The files included in this repo (such as `sampled_data.csv`) are outputs generated from a specific sample used in my analysis.  
 If you prefer to work on the full dataset or generate your own sample, feel free to do so.  
 There is also a dedicated section in the code that performs normalization on the full dataset – you can run it yourself to reproduce or customize your own version. (#Data loading and normalization)
 
 📌 If you choose to generate your own outputs from the full dataset, it's recommended to give them different file names.  
-   This helps avoid confusion or overwriting the sample-based files that are already included in this repository.
+This helps avoid confusion or overwriting the sample-based files that are already included in this repository.
+
 ---
 ## Working with Data Files
 -You can open the .csv and .xlsx files in Excel, Google Sheets, or load them into Python (e.g., using pandas.read_csv()).
