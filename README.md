@@ -75,6 +75,6 @@ The written report includes:
 - Methods
 - Results and main findings
 - Conclusions
-- Discussion
+- Discussion: An analysis of the gaps between clustering results and true labels, and insights about the clustering quality.
 ---
 
