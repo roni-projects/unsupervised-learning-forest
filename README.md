@@ -71,9 +71,8 @@ This helps avoid confusion or overwriting the sample-based files that are alread
 ## Report Structure
 The written report includes:
 - Abstract
-- Introduction
-- Methods
-- Results and main findings
+- Methodology
+- Results & Evaluation
 - Conclusions
 - Discussion: An analysis of the gaps between clustering results and true labels, and insights about the clustering quality.
 ---
